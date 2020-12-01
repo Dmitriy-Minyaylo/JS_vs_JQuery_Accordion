@@ -1,0 +1,120 @@
+body {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+}
+
+.wrapper-jquery {
+   margin: 0 auto;
+   width: 600px;
+   background: #eee;
+   border: 5px solid #000;
+}
+.wrapper-jquery__main-title {
+   margin: 0 auto;
+   padding: 5px;
+   font-size: 20px;
+   text-align: center;
+   background: rgb(24, 252, 36);
+}
+.wrapper-jquery__faq {
+   padding: 10px;
+}
+.wrapper-jquery__question {
+   background-color: #b9fc9b;
+   padding: 15px;
+}
+
+.wrapper-jquery__answer-item--active .wrapper-jquery__question {
+   background-color: #c27979;
+   padding: 15px;
+   text-align: center;
+}
+
+.wrapper-jquery__answer {
+   padding: 20px;
+   display: none;
+}
+
+.wrapper-jquery__answer-item--active .wrapper-jquery__answer {
+   display: block;
+   background-color: rgb(163, 204, 140);
+}
+
+.magic-button {
+   margin-top: 50px;
+   border: 2px solid #000;
+   padding: 20px;
+   height: 60px;
+   width: 180px;
+   background-color: rgb(255, 92, 92);
+   line-height: 70px;
+}
+
+.magic-button__active {
+   font-size: 20px;
+   font-weight: 800;
+   color: #000;
+   padding-left: 40px;
+   display: block; 
+   position: absolute;
+   top: 75px;
+}
+.magic-button__disable {
+   font-size: 20px;
+   font-weight: 800;
+   padding-left: 10px;
+   display: none;
+   color: rgb(35, 15, 153);
+   top: 50px;
+}
+
+.magic-button__input:checked ~ .magic-button__label > .magic-button__active {
+   display: none;
+}
+
+.magic-button__input:checked ~ .magic-button__label > .magic-button__disable {
+   display: block;
+   padding-left: 40px;
+   position: absolute;
+   margin-top: 25px;
+}
+/* стили js-accord */
+.wrapper-js {
+   margin: 0 auto;
+   width: 600px;
+   background: rgb(209, 208, 255);
+   border: 5px solid #000;
+}
+
+.wrapper-js__main-title {
+   margin: 0 auto;
+   padding: 5px;
+   font-size: 20px;
+   text-align: center;
+   color: yellow;
+   background: rgb(4, 0, 255);
+}
+.wrapper-js__faq {
+   padding: 10px;
+}
+.wrapper-js__question {
+   background-color: #6f7df5;
+   padding: 15px;
+}
+
+.wrapper-js__answer-item--active .wrapper-js__question {
+   background-color: #fd0202;
+   padding: 10px;
+   text-align: center;
+}
+
+.wrapper-js__answer {
+   padding: 10px;
+   display: none;
+}
+
+.wrapper-js__answer-item--active .wrapper-js__answer {
+   display: block;
+   background-color: rgb(163, 204, 140);
+}
