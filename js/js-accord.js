@@ -22,13 +22,3 @@ for (let i = 0; i < accord.length; i++) {
       }
    })
 }
-
-//перебираем все div по которым кликаем
-// for (i = 0; i < accord.length; i++) {
-//    if (accord[i].classList.contains("wrapper-js__answer-item--active")) {
-//       accord[i].parentNode.classList.remove("wrapper-js__answer-item--active");
-//    } else {
-//       //присваеваем родителю активный класс
-//       this.parentNode.classList.toggle("wrapper-js__answer-item--active");
-//    }
-// }
